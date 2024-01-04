@@ -145,6 +145,10 @@ function dd($array)
     echo "</pre>";
 }
 
+function to($url){
+    header("location:$url");
+}
+
 
 $Title=new DB('titles');
 ?>
