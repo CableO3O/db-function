@@ -7,7 +7,7 @@ session_start();
 define("db_server", "localhost");
 define("db_user", "root");
 define("db_password", "");
-define("db_name", "sttps");
+define("db_name", "");
 
 // 創建資料庫連接
 function createDatabaseConnection()
